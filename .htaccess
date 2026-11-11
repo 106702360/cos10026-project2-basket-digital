@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(database\.sql|settings\.php|bootstrap\.php|functions\.php|.*\.inc)$">
+    Require all denied
+</FilesMatch>
